@@ -19,7 +19,7 @@ const dataRecv = (data) => {
 	const degree = value[4].deg;
 	const msg = `Feels like ${degree} °C in ${getInput()}`;
 	document.querySelector('#output').innerHTML = msg;
-	console.log(value)
+	
 }
 
 
