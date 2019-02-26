@@ -1,0 +1,92 @@
+body {
+	font: 15px/1.5 Arial, Helvatica, sans-serif;
+	padding: 0;
+	margin : 0;
+	background-color : #F5F4F4;
+	text-align: center
+}
+
+ /*Global Style*/
+.container {
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+/*close*/
+
+
+
+#app-block {
+	background: -webkit-linear-gradient(30deg,  green 0%, red 120%) ;
+	padding : 50px 100px;
+	border-radius: 50px 15px;
+	margin-top: 120px
+}
+
+
+#title{
+	color:#ffffff;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+#output{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 30px;
+	margin:0;
+}
+
+
+#text-field {
+	height: 60px;
+	margin: 3px 0 3px 3px;
+	border:none;
+	border-radius: 40px 0 0 40px;
+	outline: none;
+	width:55%;
+	background-color:#F5F4F4;	
+}
+
+
+::-webkit-input-placeholder{
+	color:#0E120C;
+	font-size:20px ;
+	font-style: italic
+}
+
+.btn {
+	height: 60px;
+	padding: 0 30px;
+	margin: 3px 3px 3px 0;
+	background: #1C3B0B;
+	color:#F5F4F4;
+	border : none;
+	border-radius: 0 40px 40px 0;
+	outline: none;
+}
+
+.btn:hover{
+	background-color: #0E120C
+}
+
+input{
+	padding: 0 30px;
+	font-size:20px;
+    color: #0E120C;
+    /*float: right;*/
+}
+
+.display{
+	margin-top:50px;
+}
+
+
+/*Sample form css*/
+
+form{
+	display: flex;
+	justify-content: center
+}
+
+
