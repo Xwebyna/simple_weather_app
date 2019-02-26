@@ -1,0 +1,1 @@
+Simple weather app built with vanilla js and express server
